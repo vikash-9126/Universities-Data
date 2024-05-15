@@ -1,0 +1,51 @@
+h1,input, button{
+    text-align: center;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+ul {
+list-style-type: none;
+}
+
+ul li{
+    width: 92.5%;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+
+.vikash{
+    display: flex;
+    justify-content: center;
+    height: 1.5rem;
+}
+li:nth-of-type(even){
+    background-color: whitesmoke;
+}
+li:nth-of-type(odd){
+    background-color: lightgrey;
+}
+.animate{
+    animation: identifier 1s ease-in 1;
+}
+@keyframes identifier {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    } 
+}
